@@ -1,0 +1,24 @@
+.formulario {
+  background: #aaa;
+  padding: 20px;
+
+  button {
+    background-color: var(--azul);
+    color: var(--branco);
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+button {
+  cursor: pointer;
+  background-color: yellow;
+}
